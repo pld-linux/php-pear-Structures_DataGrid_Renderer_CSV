@@ -4,7 +4,7 @@
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_Renderer_CSV
 Summary:	%{_pearname} - renderer driver that generates a CSV string
-Summary(pl):	%{_pearname} - sterownik renderera do generowania ci±gu znaków CSV
+Summary(pl.UTF-8):   %{_pearname} - sterownik renderera do generowania ciÄ…gu znakÃ³w CSV
 Name:		php-pear-%{_pearname}
 Version:	0.1.3
 Release:	1
@@ -27,8 +27,8 @@ string.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Ten pakiet dostarcza sterownik renderera do generowania ci±gu znaków
+%description -l pl.UTF-8
+Ten pakiet dostarcza sterownik renderera do generowania ciÄ…gu znakÃ³w
 CSV dla Structures_DataGrid.
 
 Ta klasa ma w PEAR status: %{_status}.
