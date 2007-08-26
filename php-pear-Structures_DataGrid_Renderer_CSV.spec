@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - renderer driver that generates a CSV string
 Summary(pl.UTF-8):	%{_pearname} - sterownik renderera do generowania ciągu znaków CSV
 Name:		php-pear-%{_pearname}
-Version:	0.1.3
+Version:	0.1.4
 Release:	1
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	6731341f1545a9e804250f79f0ab7fc0
+# Source0-md5:	69f37de4a299d09babed50d0e8f1caab
 URL:		http://pear.php.net/package/Structures_DataGrid_Renderer_CSV/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
