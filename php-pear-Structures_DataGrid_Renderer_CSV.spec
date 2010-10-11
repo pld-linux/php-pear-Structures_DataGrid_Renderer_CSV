@@ -1,15 +1,17 @@
 %include	/usr/lib/rpm/macros.php
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_Renderer_CSV
+%define		subver	dev1
+%define		rel		1
 Summary:	%{_pearname} - renderer driver that generates a CSV string
 Summary(pl.UTF-8):	%{_pearname} - sterownik renderera do generowania ciągu znaków CSV
 Name:		php-pear-%{_pearname}
-Version:	0.1.4
-Release:	3
+Version:	0.1.5
+Release:	0.%{subver}.%{rel}
 License:	PHP License
 Group:		Development/Languages/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	69f37de4a299d09babed50d0e8f1caab
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}%{subver}.tgz
+# Source0-md5:	131ecc2591cf06c56763e06015373761
 URL:		http://pear.php.net/package/Structures_DataGrid_Renderer_CSV/
 BuildRequires:	php-pear-PEAR >= 1:1.4.9
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
