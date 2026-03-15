@@ -1,7 +1,7 @@
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_Renderer_CSV
 %define		subver	dev1
-%define		rel		1
+%define		rel		2
 Summary:	%{_pearname} - renderer driver that generates a CSV string
 Summary(pl.UTF-8):	%{_pearname} - sterownik renderera do generowania ciągu znaków CSV
 Name:		php-pear-%{_pearname}
